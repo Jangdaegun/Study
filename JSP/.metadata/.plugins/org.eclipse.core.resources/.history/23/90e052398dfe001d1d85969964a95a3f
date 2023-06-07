@@ -1,0 +1,37 @@
+package com.javalec.ex;
+
+// import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+public class MemberDAO {
+	private Connection conn = null;
+	private Statement stmt = null;
+	private ResultSet rs = null;
+	private PreparedStatement pstmt = null;
+
+	private DataSource ds = null;
+
+	private static MemberDAO instance = new MemberDAO();
+
+	public static MemberDAO getInstance() {
+		if (instance == null)
+			instance = new MemberDAO();
+		return instance;
+	}
+
+	public MemberDAO() {
+		try {
+			Context ctx = new InitialContext();
+			ds = (DataSource) ctx.lookup("java:comp/env/jdbc/mysql");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

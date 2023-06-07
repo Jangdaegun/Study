@@ -1,0 +1,54 @@
+package interface_study;
+
+public class Bulbasaur extends Pocketmon implements Plantable, Animalable {
+
+	@Override
+	public void bodyattack() {
+		// TODO Auto-generated method stub
+		System.out.println("body attack!");
+	}
+
+	@Override
+	public void quickattack() {
+		// TODO Auto-generated method stub
+		System.out.println("quick attack!");
+
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("run!");
+	}
+
+	@Override
+	public void jump() {
+		// TODO Auto-generated method stub
+		System.out.println("jump!");
+	}
+
+	@Override
+	public void solarbeam() {
+		// TODO Auto-generated method stub
+		System.out.println("solar beam!");
+	}
+
+	@Override
+	public void growth() {
+		// TODO Auto-generated method stub
+		System.out.println("grow!");
+	}
+
+	@Override
+	public void photosynthesis() {
+		// TODO Auto-generated method stub
+		System.out.println("photosynthesis!!");
+	}
+
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

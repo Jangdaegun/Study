@@ -1,0 +1,10 @@
+package Practice01;
+
+public abstract class Cryptid extends Animal implements Fliable, Walkable{
+
+	public Cryptid(int age, String name) {
+		super(age, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

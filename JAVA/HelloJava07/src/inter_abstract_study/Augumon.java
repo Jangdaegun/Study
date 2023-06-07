@@ -1,0 +1,30 @@
+package inter_abstract_study;
+
+public class Augumon extends Digimon implements Fireable {
+
+	@Override
+	public void shotFire() {
+		System.out.println("shot Fire!");
+	}
+
+	@Override
+	public void Fireball() {
+		return;
+	}
+
+	@Override
+	public void FlameWall() {
+		return;
+	}
+
+	@Override
+	public void evolution() {
+		System.out.println("Fire evolution!");
+	}
+
+	@Override
+	public void degeneration() {
+		System.out.println("Fire degeneration!");
+	}
+
+}

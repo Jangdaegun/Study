@@ -1,0 +1,21 @@
+package mytest.myjava.mycode;
+
+public class YourJava {
+
+	public static void main(String[] args) {
+		int a  = 35;
+		short aa = (short)10;
+		double b = 3.14;
+		float bb = (float)3.1415;
+		char c = 'A';
+		char cc = '가';
+		
+		boolean d = false;
+		d = true;
+		
+		String f = "안녕하세요~!";
+		f += " 이동준 선생님~! ";		
+		System.out.println(f);
+		System.out.println(a);
+	}
+}

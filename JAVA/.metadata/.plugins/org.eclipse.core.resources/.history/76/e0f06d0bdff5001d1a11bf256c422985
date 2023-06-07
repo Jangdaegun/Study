@@ -1,0 +1,31 @@
+package abstract_study;
+
+public class Cogmo extends LOL {
+
+	@Override
+	public void Q() {
+		System.out.println("Q : Q attack");
+	}
+
+	@Override
+	public void W() {
+		// TODO Auto-generated method stub
+		System.out.println("W : W attack");
+
+	}
+
+	@Override
+	public void E() {
+		// TODO Auto-generated method stub
+		System.out.println("E : E attack");
+
+	}
+
+	@Override
+	public void R() {
+		// TODO Auto-generated method stub
+		System.out.println("R : R attack");
+
+	}
+
+}

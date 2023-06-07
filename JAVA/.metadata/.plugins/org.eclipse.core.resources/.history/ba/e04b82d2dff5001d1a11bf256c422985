@@ -1,0 +1,11 @@
+package abstract_study;
+
+public class PCroom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LOL c1 = new Cogmo();
+		Cogmo c2 = new Cogmo();
+	}
+
+}

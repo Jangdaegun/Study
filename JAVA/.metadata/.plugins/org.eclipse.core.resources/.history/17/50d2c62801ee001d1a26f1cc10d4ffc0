@@ -1,0 +1,8 @@
+package mytest.myjava.mycode;
+
+public class YourJava {
+
+	public static void main(String[] args) {
+
+	}
+}

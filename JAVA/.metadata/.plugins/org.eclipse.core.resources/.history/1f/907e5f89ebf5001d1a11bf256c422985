@@ -1,0 +1,5 @@
+package interface_study;
+
+public class Bulbasaur extends Pocketmon implements Plantable,Animalable {
+	
+}

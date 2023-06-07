@@ -1,0 +1,30 @@
+package inter_abstract_study;
+
+public class Padakmon extends Digimon implements Holiable {
+
+	@Override
+	public void killundead() {
+		System.out.println("kill undead!");
+	}
+
+	@Override
+	public void holypeast() {
+		return;
+	}
+
+	@Override
+	public void holybolt() {
+		return;
+	}
+
+	@Override
+	public void evolution() {
+		System.out.println("evolution!");
+	}
+
+	@Override
+	public void degeneration() {
+		System.out.println("degeneration!");
+	}
+
+}

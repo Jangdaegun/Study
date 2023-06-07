@@ -1,0 +1,15 @@
+package com.javalec.ex.dto;
+
+import java.sql.Timestamp;
+
+public class BDto {
+	private int bId;
+	private String bName;
+	private String bTitle;
+	private String bContent;
+	private Timestamp bDate;
+	private int bHit;
+	private int bGroup;
+	private int bStep;
+	private int bIndent;
+}

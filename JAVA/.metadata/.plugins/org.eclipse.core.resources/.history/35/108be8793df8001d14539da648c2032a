@@ -1,0 +1,17 @@
+package Practice01;
+
+public class Giraffe extends Cryptid{
+
+	public Giraffe(int age, String name) {
+		super(age, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void sleep() {
+		System.out.println("Giraffe Sleep");
+		
+	}
+
+	
+}

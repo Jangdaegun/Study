@@ -1,0 +1,9 @@
+#Tomcat publish data
+#Thu Jun 01 09:55:46 KST 2023
+org.eclipse.jst.jee.server\:HelloJSP02=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloJSP02
+org.eclipse.jst.jee.server\:HelloJSP01=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloJSP01
+org.eclipse.jst.jee.server\:HelloJSP06=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloJSP06
+org.eclipse.jst.jee.server\:HelloJSP07_MVC=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloJSP07_MVC
+org.eclipse.jst.jee.server\:LastJSP=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\LastJSP
+org.eclipse.jst.jee.server\:HelloJSP03=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloJSP03
+org.eclipse.jst.jee.server\:HelloMyJSP01=C\:\\Users\\KB\\Desktop\\\uC0C8 \uD3F4\uB354\\apache-tomcat-8.5.73\\wtpwebapps\\HelloMyJSP01

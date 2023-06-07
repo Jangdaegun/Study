@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;inter_abstract&apos; to &apos;inter_abstract_study&apos;&#x0D;&#x0A;- Original project: &apos;HelloJava07&apos;&#x0D;&#x0A;- Original element: &apos;HelloJava07/src/inter_abstract&apos;&#x0D;&#x0A;- Renamed element: &apos;HelloJava07/src/inter_abstract_study&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;inter_abstract&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;inter_abstract" name="inter_abstract_study" qualified="false" references="true" stamp="1684466268507" textual="false" version="1.0"/>
+</session>

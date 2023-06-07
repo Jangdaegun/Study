@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;study01_method.Ractangle&apos; to &apos;Rectangle&apos;&#x0D;&#x0A;- Original project: &apos;HelloJava03&apos;&#x0D;&#x0A;- Original element: &apos;study01_method.Ractangle&apos;&#x0D;&#x0A;- Renamed element: &apos;study01_method.Rectangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ractangle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;study01_method{Ractangle.java[Ractangle" matchStrategy="1" name="Rectangle" qualified="false" references="true" similarDeclarations="false" stamp="1683679843346" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,56 @@
+package inter_abstract_study;
+
+import interface_study.Animalable;
+import interface_study.Pocketmon;
+
+public class Charmander extends Pocketmon implements Animalable,Fireable{
+
+	@Override
+	public void shotFire() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Fireball() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void FlameWall() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void bodyattack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void quickattack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void jump() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

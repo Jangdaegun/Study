@@ -1,0 +1,68 @@
+package sa;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+public class Dao {
+	private String url =
+			"jdbc:mysql://localhost:3306/myjsp?"+
+			"useUnicode=true&characterEncoding=utf8&"+
+			"serverTimezone=UTC";
+	private String uid = "root";
+	private String upw = "1234";
+	
+	private Connection conn = null;
+	private Statement stmt = null;
+	private ResultSet rs = null;
+	private PreparedStatement pstmt =null;
+	
+	
+	public Dao() {
+		try {
+			//jar¶û ¿¬°á
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public ArrayList<Employee> showMembers() {
+		ArrayList<Employee> results = new ArrayList<Employee>();
+		conn = null;
+		stmt = null;
+		try {
+			conn = DriverManagerManager.getConnection(url,uid,upw);
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery("select * from djemployee");
+			while(rs.next()) {
+				Employee temp = new Employee();
+				temp.setName(rs.getNString("name"));
+				temp.setSabeon(rs.getInt("sabeon"));
+				temp.setName(rs.getNString("buseo"));
+				results.add(temp);
+				//String result = "";
+				//result +=rs.getString("name")+",";
+				//result +=rs.getString("sabeon")+",";
+				//result +=rs.getString("buseo");
+				//results.add(result);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				rs.close();
+				stmt.close();
+				conn.close();
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
+		}
+		return results;
+	}
+	
+
+}

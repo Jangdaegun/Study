@@ -1,0 +1,16 @@
+package interface_study2;
+
+public class ArtStudent implements Studiable {
+
+	@Override
+	public void rest() {
+		Studiable.super.rest();
+		System.out.println("rest art");
+	}
+	
+	@Override
+	public void study() {
+		
+	}
+
+}

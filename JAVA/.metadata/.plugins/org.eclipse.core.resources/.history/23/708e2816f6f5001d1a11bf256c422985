@@ -1,0 +1,10 @@
+package inter_abstract_study;
+
+public class interface_abstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
